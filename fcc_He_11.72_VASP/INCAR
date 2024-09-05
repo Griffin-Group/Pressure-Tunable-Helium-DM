@@ -1,0 +1,25 @@
+! Hybrid Functional
+LHFCALC = .TRUE.
+GGA = PE
+HFSCREEN = 0.2 
+
+! Electronic Stuff
+ISMEAR =  0
+SIGMA  =  0.01
+ENCUT = 1200
+
+! Phonons
+LREAL = .FALSE.
+EDIFF = 1e-6
+PREC = Accurate
+
+! vdW
+! Parameters from here 
+! https://github.com/dftd3/simple-dftd3/blob/main/assets/parameters.toml
+IVDW = 12
+VDW_S8 = 2.310
+VDW_A1 = 0.383
+VDW_A2 = 5.685
+
+! Parallelism
+KPAR = 16

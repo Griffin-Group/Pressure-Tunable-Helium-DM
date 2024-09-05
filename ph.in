@@ -1,0 +1,8 @@
+&inputph
+  tr2_ph=1.0d-16
+  prefix='He'
+  ldisp=.true.
+  nq1=3, nq2=3, nq3=3
+  outdir='./out'
+  nmix_ph = 8 
+/
